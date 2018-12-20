@@ -19,11 +19,13 @@ Forneça a _api key_ e o _domain name_ do Mailgun, obtido em _https://app.mailgu
 **Observação**: Para fins de avaliação desse projeto, o arquivo .env do backend já está preenchido. 
 O banco de dados foi provido pelo https://mlab.com.
 
+**ALERTA**: É possivel que o MAILGUN tenha desabilitado minha conta temporariamente. Favor usem os dados de outra conta.
+
 	PORT=3001
 	HOSTNAME=127.0.0.1
 	DB_HOST=mongodb://admin:adminadmin1@ds121589.mlab.com:21589/k121
-	MAIL_GUN_API_KEY=e0b2cf4e6bf0a3b26889acee0d7f637f-8889127d-e70fe129
-	MAIL_GUN_DOMAIN=sandbox4963d7a39cc3469e879938dbb6205f2f.mailgun.org
+	MAIL_GUN_API_KEY=
+	MAIL_GUN_DOMAIN=
 
 ### Iniciando o servidor localmente
 	cd backend
